@@ -41,7 +41,7 @@ python3 -m pip install -r requirements.txt
  Usage:
 1) Если корпус новый, и до этого для него не строился индекс
  ```
- python3 search.py search -p <path-to-data> <query>
+ python3 main.py search -p <path-to-data> <query>
 ```
 2) Если до этого вычислялся индекс корпуса
  ```
