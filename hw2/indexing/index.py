@@ -38,7 +38,7 @@ def stats_matr(matr_ind): # Функция для ответа на статис
     print('The most popular name: ', max_name)
 
 
-def get_index(corpus, vectorizerr):  # Функция, которая делает матрицу и словарь из списка строк = корпуса
+def get_index(corpus, vectorizerr):  # Функция, которая делает матрицу из корпуса
     corpus = [' '.join(lemmas) for lemmas in list(corpus.values())]
     vectorizer = vectorizerr(analyzer='word')
     matrix = vectorizer.fit_transform(corpus)
