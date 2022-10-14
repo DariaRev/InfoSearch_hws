@@ -1,0 +1,6 @@
+nltk
+pymystem3
+numpy
+scikit-learn
+scipy
+tqdm
