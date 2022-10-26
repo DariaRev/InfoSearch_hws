@@ -143,3 +143,15 @@ python3 -m pip install -r requirements.txt
 
 ```tensor_q.pt``` - для модели берт для запросов
 
+
+## Проект. Поисковик
+
+Чтобы запустить проект -
+  ```
+  streamlit run main.py
+  ```
+    
+Данные используются [отсюда](https://www.kaggle.com/datasets/bobazooba/thousands-of-questions-about-love?resource=download).
+Все нужные файлы находятся в директории project.
+
+Поскольку файл для берта слишком большой, он не помещается в гитхаб, скачать его можно [отсюда]()
