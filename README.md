@@ -154,4 +154,4 @@ python3 -m pip install -r requirements.txt
 Данные используются [отсюда](https://www.kaggle.com/datasets/bobazooba/thousands-of-questions-about-love?resource=download).
 Все нужные файлы находятся в директории project.
 
-Поскольку файл для берта слишком большой, он не помещается в гитхаб, скачать его можно [отсюда]()
+Поскольку файл для берта слишком большой, он не помещается в гитхаб, скачать его можно [отсюда](https://drive.google.com/file/d/1ZF3FOqv3b1XmUZjMmITaSSk1aY-YsZmB/view?usp=sharing), а затем положить в папку files
