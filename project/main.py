@@ -128,9 +128,9 @@ def main():  # главная функция, вызывающая все ост
                 res = indexing.sort_scores(sim, ans)
             elif metric == "BERT":
                 logging.info('downloaded files')
-                query_vector = indexing.get_query_vector_bert(query)
+                query_vector = indexing.get_query_vector_bert(query_new[0])
                 stacked = torch.stack(mat_ans_bert)
-                sim = indexing.get_similarity(query_vector, stacked.reshape((49848, 1024)))
+                sim = indexing.get_similarity(query_vector, stacked)
                 logging.info('Got similarity')
                 res = indexing.sort_scores_bert(sim, ans)
             else:
